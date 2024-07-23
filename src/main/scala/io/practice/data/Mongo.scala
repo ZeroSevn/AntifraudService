@@ -58,16 +58,4 @@ object Mongo {
   }
 
 
-
-
-
-
-//  def saveReport(report: Report): Future[Unit] = {
-//    val document = Document(
-//      "pageId" -> report.pageId,
-//      "stopWords" -> report.stopWords.toSeq
-//    )
-//    reportsCollection.insertOne(document).toFuture().map(Unit) => ())
-//  }
-
 }
